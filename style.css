@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box; /* prendre tous les padding ainsi que les marges*/ 
+}
+body {
+font-size: 16px;
+color: rgba(0, 0, 0, 0.87);
+font-family: "Montserrat", sans-serif;
+line-height: 1.8;
+margin: 0;
+}
+.topbar {
+    background: #FFF;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+  padding: 30px;
+}
+.topbar nav { 
+    float: left;
+
+}
+.topbar nav a { 
+    color: #9F9F9F;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 23px;
+}
+.topbar nav a:hover { 
+    color:rgba(0, 0, 0, 1);
+}
+.topbar nav a.active { 
+    color: black;
+}
+.topbar .social { 
+    float: right;
+
+}
+
+.social a { 
+   padding: 0 12px;
+   opacity: .5;
+}
+.social a:hover { 
+    opacity: 1;
+ }
+ .banniere{
+     background: no-repeat center center / cover url("img/header.jpg");
+     height: 396px;
+ }
+.main { 
+    float: left;
+    background: #fff;    
+    width: calc(100% - 320px);
+    position: relative;
+    height: 200px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .05) ;
+    z-index: 2;
+}
+.aside { 
+    position: relative;
+    z-index: 1;
+    float: right;
+    width: 320px  ;
+    background: #FBFBFB;
+    padding: 20px 40px;
+    font-size: 17px;
+}
+.sidebar-title { 
+    font-size: 20px;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.sidebar-title:first-child { 
+    margin-top: 0;
+}
+.sidebar-title +  ul li  { 
+    list-style-type: none;
+}
+.aside a  { 
+color: #9F9F9F;
+text-decoration: none;
+}
+.aside a:hover { 
+    color: #000;
+}
+.aside  ul { 
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.aside hr { 
+    background: #c4c4c4; 
+    margin: 30px 0;
+    height: 1px;
+    border:none;
+
+}
+.footer { 
+    clear: both;
+}
+.article-img { 
+    float: left;
+    width: 308px;
+}
+.article-img img {
+    width: 100%;
+  height: auto;
+}
+.article { 
+    overflow: hidden;
+}
