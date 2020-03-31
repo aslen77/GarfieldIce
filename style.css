@@ -15,6 +15,8 @@ margin: 0;
    left: 0;
    width: 100%;
   padding: 30px;
+  z-index: 3;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.6);
 }
 .topbar nav { 
     float: left;
@@ -119,6 +121,7 @@ text-decoration: none;
 }
 .article { 
     overflow: hidden;
+    margin: 40px 20px;
 }
 .article-date { 
     font-weight: 300px;
