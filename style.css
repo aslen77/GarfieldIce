@@ -99,7 +99,10 @@ text-decoration: none;
 .footer { 
     clear: both;
     float: right;
-    margin-right: calc(100% - 95%);
+    margin-right: calc(100% - 98%);
+    color: brown;
+    font-family: 'Franklin Gothic Medium';
+    font-size: larger;
 }
 .article-img { 
     float: left;
