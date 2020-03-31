@@ -128,3 +128,11 @@ text-decoration: none;
     color: rgba(0, 0, 0, .6);
     margin-bottom: 5px;
 }
+.article-title-page-article{ 
+    padding-left: 20px;
+}
+.article-page > p{ 
+    text-align: center;
+   padding-left: 20px;
+   
+}
