@@ -109,6 +109,9 @@ text-decoration: none;
     width: 308px;
     margin-right: 25px;
 }
+.article a { 
+    text-decoration: none;
+}
 .article-img img {
     width: 100%;
   height: auto;
