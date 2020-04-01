@@ -134,7 +134,7 @@ text-decoration: none;
     text-align: center;
 }
 .article-page > p{ 
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
    padding-left: 20px;
    background-color: rgb(196, 196, 196,.2);
@@ -186,7 +186,6 @@ text-decoration: none;
     justify-content: space-between;
     margin-left: 20px;
     margin-top: 10px;
-
 }
 .main-picture img{ 
     padding:10px;
