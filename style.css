@@ -27,6 +27,7 @@ margin: 0;
     text-decoration: none;
     font-weight: 500;
     margin: 0 23px;
+    transition: color s;
 }
 .topbar nav a:hover { 
     color:rgba(0, 0, 0, 1);
@@ -106,12 +107,7 @@ text-decoration: none;
     font-family: 'Franklin Gothic Medium';
     font-size: larger;
 }
-.article-img { 
-    float: left;
-    width: 308px;
-    margin-right: 25px;
-    position: relative;
-}
+
 .article a { 
     text-decoration: none;
 }
@@ -187,6 +183,7 @@ text-decoration: none;
     margin-left: 20px;
     margin-top: 10px;
 }
+ /* image de fond ecran Main*/
 .main-picture img{ 
     padding:10px;
     width: 361px;
@@ -197,4 +194,22 @@ text-decoration: none;
 .main-picture img:hover { 
     -webkit-transform: scale(1.3);
 	transform: scale(1.3);
+}
+.article-img { 
+    float: left;
+    width: 308px;
+    margin-right: 25px;
+    position: relative;
+    animation: anim 3s;
+}
+@keyframes anim { 
+    from {
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    to 
+    { 
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
