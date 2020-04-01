@@ -110,6 +110,7 @@ text-decoration: none;
     float: left;
     width: 308px;
     margin-right: 25px;
+    position: relative;
 }
 .article a { 
     text-decoration: none;
@@ -130,10 +131,14 @@ text-decoration: none;
 }
 .article-title-page-article{ 
     padding-left: 20px;
+    text-align: center;
 }
 .article-page > p{ 
+    font-size: 12px;
     text-align: center;
    padding-left: 20px;
+   background-color: rgb(196, 196, 196,.2);
+   border-radius: 40px;
    
 }
 .article-title::After { 
@@ -165,4 +170,27 @@ text-decoration: none;
 .article-img:hover { 
     transform-origin:  right top;
     transform: scale(1.1) rotate(30deg);
+}
+.article-img + span { 
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main-picture { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.main-picture img{ 
+    
+    padding:10px;
+    width: 340px;
+    height: 320px;
 }
