@@ -136,3 +136,33 @@ text-decoration: none;
    padding-left: 20px;
    
 }
+.article-title::After { 
+    content:'';
+    display: block;
+    background: #000;
+    height: 3px;
+    width: 250px;
+    overflow: hidden;
+}
+.article-title h2{ 
+    margin-bottom: 1px;
+}
+
+.aside ul {
+     counter-reset: compteurList;
+}
+.aside li::before { 
+        counter-increment: compteurList;
+        content: counter(compteurList);
+}
+.aside li:first-child::before { 
+    content:"*";
+}
+.aside ul li::after { 
+
+    content: ".";
+}
+.article-img:hover { 
+    transform-origin:  right top;
+    transform: scale(1.1) rotate(30deg);
+}
