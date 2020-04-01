@@ -171,7 +171,12 @@ text-decoration: none;
     transform-origin:  right top;
     transform: scale(1.1) rotate(30deg);
 }
-
+.article-img + span { 
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .main-picture { 
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +191,6 @@ text-decoration: none;
 .main-picture img{ 
     
     padding:10px;
-    width: 100px;
-    height: 220px;
+    width: 340px;
+    height: 320px;
 }
