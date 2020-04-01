@@ -166,6 +166,7 @@ text-decoration: none;
 .article-img:hover { 
     transform-origin:  right top;
     transform: scale(1.1) rotate(30deg);
+    animation-play-state: paused;
 }
 .article-img + span { 
     background-color: red;
@@ -193,7 +194,8 @@ text-decoration: none;
 }
 .main-picture img:hover { 
     -webkit-transform: scale(1.3);
-	transform: scale(1.3);
+    transform: scale(1.3);
+    
 }
 .article-img { 
     float: left;
