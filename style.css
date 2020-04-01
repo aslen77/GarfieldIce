@@ -106,15 +106,11 @@ text-decoration: none;
     font-family: 'Franklin Gothic Medium';
     font-size: larger;
 }
-.article-img { 
-    float: left;
-    width: 308px;
-    margin-right: 25px;
-    position: relative;
-}
 .article a { 
     text-decoration: none;
 }
+
+
 .article-img img {
     width: 100%;
   height: auto;
@@ -167,10 +163,7 @@ text-decoration: none;
 
     content: ".";
 }
-.article-img:hover { 
-    transform-origin:  right top;
-    transform: scale(1.1) rotate(30deg);
-}
+
 .article-img + span { 
     background-color: red;
     position: absolute;
@@ -187,6 +180,20 @@ text-decoration: none;
     margin-left: 20px;
     margin-top: 10px;
 
+}
+.article-img { 
+    float: left;
+    width: 308px;
+    margin-right: 25px;
+    position: relative;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+}
+.article-img:hover { 
+    /* transform-origin:  right top;
+    transform: scale(1.1) rotate(30deg); */
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 .main-picture img{ 
     padding:10px;
