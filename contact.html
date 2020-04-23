@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="articles.html" class="active">Articles</a>
+            <a href="apropos.html">A propos</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="social">
+            <a href="https://www.facebook.com/photo.php?fbid=1533914810100696&set=a.101925559966302&type=3&theater" title="Facebook"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/aSlen_Del_Ca" title="Twitter"><img src="img/twitter.png" alt="Twitter"></a>
+        </div>
+    </header>
+
+    <div class="banniere"></div>
+
+    <div class="main">
+        <article class="article-page">
+       <div class="contacte">
+
+       </div>
+       <form class="formulaire">
+           <div class="container-formulaire">
+
+            <div>
+                <label for="nom">Nom : </label> <br>
+                <input type="text" name="nom" placeholder="votre nom de famille"> 
+               </div>
+    
+               <div>
+                <label for="nom">Prénom : </label> <br>
+                <input type="text" name="prenom" placeholder="votre Prénom"> 
+               </div>
+    
+               <div>
+                <label for="nom">Date de naissance : </label> <br>
+                <input type="date" name="date" placeholder="votre Date de naissance"> 
+               </div>
+    
+    
+               <div>
+                <label for="email">votre Email: </label> <br>
+                <input type="email" name="email" placeholder="votre@email.com"> 
+               </div>
+    
+               <div>
+                <label for="nom">Pays</label> <br>
+               <select name="pays" id="storyS">
+                   <option value="0" disabled selected>Select</option>
+                   <option value="France">France</option>
+                   <option value="Tunisie">Tunisie</option>
+                   <option value="Allemagne">Allemagne</option>
+                   <option value="Romanie">Romanie</option>
+               </select>
+               </div>
+    
+    
+               <div class="textarea">
+                <label for="message">votre message: </label> <br>
+                <textarea id="story" name="story" rows="5" cols="33">
+      </textarea>
+               </div>
+    
+    
+               <button class="btn_send"> Envoyer</button>
+    
+           </div>
+       </form>
+     
+        
+    </div>
+    <aside class="aside">
+        <h4 class="sidebar-title">Catégorie</h4>
+        <ul>
+            <li> <a href="index.html">High-Tech</a></li>
+            <li> <a href="#">Concentre du Web</a></li>
+            <li> <a href="#">A propos</a></li>
+            <li> <a href="#">Astuces pour developpeurs</a></li>
+            <li> <a href="#">Ressources</a></li>
+            <li> <a href="#">Bonne pratiques</a></li>
+        </ul>
+        <hr>
+        <h4 class="sidebar-title">Theme</h4>
+        <ul>
+            <li> <a href="#">Santé</a></li>
+        </ul>
+    </aside>
+   <footer class="footer">
+       @Copyright By Guesmi Aslen
+   </footer>
+</body>
+</html>
