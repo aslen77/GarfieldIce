@@ -51,6 +51,14 @@ margin: 0;
      background: no-repeat center center / cover url("img/header.jpg");
      height: 396px;
  }
+ .formulaire { 
+    border: 2px solid black;
+    padding: 40px;
+    font-size: 26px;
+    font-family: Bradley Hand;
+    background: no-repeat right  url("img/background-contact.jpeg");
+    
+}
 .main { 
     float: left;
     background: #fff;    
@@ -216,13 +224,7 @@ text-decoration: none;
         opacity: 1;
     }
 }
-.formulaire { 
-    border: 2px solid black;
-    padding: 40px;
-    font-size: 26px;
-    font-family: Bradley Hand;
-    
-}
+
 
 .container-formulaire { 
    text-align: center;
