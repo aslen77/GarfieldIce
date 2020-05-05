@@ -165,9 +165,7 @@ text-decoration: none;
         counter-increment: compteurList;
         content: counter(compteurList);
 }
-.aside li:first-child::before { 
-    content:"*";
-}
+
 .aside ul li::after { 
 
     content: ".";
