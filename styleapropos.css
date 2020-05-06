@@ -339,9 +339,14 @@ article{
      margin: 5px;
      text-align: center;
 }
-input, textarea{ 
+input{ 
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 1);
+}
+textarea {
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 1);
+    width: 170px;
 }
 button{ 
     font-size: 15px;
