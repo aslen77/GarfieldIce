@@ -65,6 +65,7 @@ margin: 0;
     font-size: 40px;
    text-align: center;
    font-family: 'Dancing Script';
+   border: 2px solid rgb(0, 162, 255);
 
 }
 .main { 
@@ -304,4 +305,9 @@ text-decoration: none;
 }
 .linkedinimg{ 
     height: 22px;
+}
+.maintenance_picture{ 
+    margin-top: 120px;
+    height: 300px;
+    margin-left: 95px;
 }
