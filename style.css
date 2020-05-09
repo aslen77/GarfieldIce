@@ -32,9 +32,7 @@ margin: 0;
 .topbar nav a:hover { 
     color:rgba(0, 0, 0, 1);
 }
-.topbar nav a.active { 
-    color: black;
-}
+
 .topbar .social { 
     float: right;
 
