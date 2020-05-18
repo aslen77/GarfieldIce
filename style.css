@@ -294,3 +294,6 @@ text-decoration: none;
 .linkedinimg{ 
     height: 22px;
 }
+.articles{
+    flex-wrap: wrap;
+}
