@@ -295,5 +295,9 @@ text-decoration: none;
     height: 22px;
 }
 .articles{
-    flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-content: flex-start;
 }
